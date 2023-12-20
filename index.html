@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#F2BDCD">
+    <div class="page">
+        <div class="text">
+            <h1>Job Application(Web)</h1>
+
+            <form class="form">
+                <label for="fname">First Name</label>
+                <input id="fname" type="text" placeholder="enter text">
+                 
+                <label for="lname">Last Name</label>
+                <input id="lname" type="text" placeholder="enter text">
+
+                <br><br>
+                <label for="email">E-mail</label>
+                <input id="email" type="email" placeholder="enter mail">
+
+                <label for="role">Job Role</label>
+                <select>
+                    <option value="">Select your job role</option>
+                    <option value="FrontEnd developer">FrontEnd developer</option>
+                    <option value="backEnd">BackEnd developer</option>
+                    <option value="FullStack developer">FullStack developer</option>
+                    <option value="flutter developer">flutter developer</option>
+                </select><br><br>
+
+                <label for="address">Address</label><br>
+                <textarea id="address" name="address" rows="3" cols="50" placeholder="Enter Address here"></textarea><br><br>
+
+                <label for="city" >City</label>
+                <input id="city" name="city">
+
+                <label for="pincode" >Pincode</label>
+                <input id="pincode" type="number" name="pincode"><br><br>
+
+                <label for="sdate">Starting Date</label>
+                <input id="sdate" name="sname" type="date"><br><br>
+
+                <label for="file">Attach your Resume</label>
+                <input id="file" name="file" type="file" placeholder="choose File">
+            </form>
+            
+            <script value="text/javascript">
+                function myfunction(){
+                 alert("your Form is Submited succesfully");
+                }
+            </script>    
+            <button type="button" onclick="myfunction">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
