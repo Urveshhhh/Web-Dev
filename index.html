@@ -3,57 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Application</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Resume</title>
 </head>
-<body bgcolor="#F2BDCD">
-    <div class="page">
-        <div class="text">
-            <h1>Job Application(Web)</h1>
-
-            <form class="form">
-                <label for="fname">First Name</label>
-                <input id="fname" type="text" placeholder="enter text">
-                 
-                <label for="lname">Last Name</label>
-                <input id="lname" type="text" placeholder="enter text">
-
-                <br><br>
-                <label for="email">E-mail</label>
-                <input id="email" type="email" placeholder="enter mail">
-
-                <label for="role">Job Role</label>
-                <select>
-                    <option value="">Select your job role</option>
-                    <option value="FrontEnd developer">FrontEnd developer</option>
-                    <option value="backEnd">BackEnd developer</option>
-                    <option value="FullStack developer">FullStack developer</option>
-                    <option value="flutter developer">flutter developer</option>
-                </select><br><br>
-
-                <label for="address">Address</label><br>
-                <textarea id="address" name="address" rows="3" cols="50" placeholder="Enter Address here"></textarea><br><br>
-
-                <label for="city" >City</label>
-                <input id="city" name="city">
-
-                <label for="pincode" >Pincode</label>
-                <input id="pincode" type="number" name="pincode"><br><br>
-
-                <label for="sdate">Starting Date</label>
-                <input id="sdate" name="sname" type="date"><br><br>
-
-                <label for="file">Attach your Resume</label>
-                <input id="file" name="file" type="file" placeholder="choose File">
-            </form>
-            
-            <script value="text/javascript">
-                function myfunction(){
-                 alert("your Form is Submited succesfully");
-                }
-            </script>    
-            <button type="button" onclick="myfunction">Submit</button>
-        </div>
+<body>
+    <img src="pic.png" alt="picture" style="width: 200px;">
+    <div style="font-size: 15px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">
+        <p><b>Urvesh Nayak<br> 
+        1st year BscIT student at JG University<br>
+        I am enthusiastic web developer student like to learn web development.</p></b>
     </div>
+
+    
+    <h3>Education:-</h3>
+    <table style="width: 50px; border-collapse: collapse;" border="1.5px">
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Institute</th>
+                <th>Year</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>BscIT</td>
+                <td>JG Uni.</td>
+                <td>2023</td>
+                <td>persuing</td>
+            </tr>
+            <tr>
+                <td>HSC</td>
+                <td>GSHSEB</td>
+                <td>2021</td>
+                <td>71%</td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <h3>Skills:-</h3>
+        <ol>
+            <li>HTML5</li>                 
+            <li>CSS3</li>
+            <li>JavaScript(intermediate level)</li>
+            <li>MS Office</li>
+            <li>Good Communication Skills</li>
+            <li>Teaching skills(beginner leHtml5vel)</li>
+        </ol>
+    </div>
+    <h3>Hobbies:-</h3> 
+    <ul>
+        <li>Reading Book</li>
+        <li>Listening PodCast</li>
+        <li>Exploring New Things</li>
+        <li>Reading Informative Articles</li>
+    </ul>
+
+    <h3>Connect With Me:-</h3>
+    <p>Email: nayakurvesh15@gmail.com</p>
+    <a href="www.linkedin.com/in/
+    urvesh-nayak-a873b628a
+    "> click here for linkdIn</a>
 </body>
 </html>
